@@ -10,9 +10,9 @@ Tools:
 * `Grafana` - service to build the dashboards
 * `Docker` - service to rule them all
 
-###You can run experiment in two ways:
+### You can run experiment in two ways:
 
-####Run with data which we prepare:
+#### Run with data which we prepare:
 
 1. **Install Docker** if you haven't used it before. 
 
@@ -28,16 +28,16 @@ pip install -r requirements.txt
 ./run_example.py
 ```
 
-####Run with your data:
+#### Run with your data:
 1. **Install Docker** if you haven't used it before.
 2. **Build container** using 
 ```bash
-docker-compose up
+docker compose up
 ```
 3. Prepare your data as dict format and send it via endpoint(http://localhost:8085/iterate/data-car)
 ![Alt text](/images/example.png?raw=true "Optional Title")
 
-###Dashboard
+### Dashboard
 
 1. **Explore the dashboard**.
  

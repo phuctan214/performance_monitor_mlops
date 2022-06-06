@@ -49,7 +49,7 @@ Go to the browser and access the Grafana dashboard at http://localhost:3000. At 
 
 To see the monitoring dashboard in the Grafana interface, click "General" and navigate to the chosen dashboard (e.g. "Evidently Data Drift").
 
-![Alt text](/images/dashboard.png?raw=true "Optional Title")
+![Alt text](/images/dashboard.jpg?raw=true "Optional Title")
 
 2. **Stop the example**.
 

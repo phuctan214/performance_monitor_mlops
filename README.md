@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 4. **Then run the docker image from the example directory**:
 ```bash
-./example_run_request.py
+./scripts/example_run_request.py
 ```
 
 #### Run with your data:

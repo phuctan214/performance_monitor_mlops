@@ -14,18 +14,22 @@ Tools:
 
 #### Run with data which we prepare:
 
-1. **Install Docker** if you haven't used it before. 
+1. **Install Docker** if you haven't used it before.
+2. **Build container** using 
+```bash
+docker compose up
+```
 
-2. **Install dependencies**.
+3. **Install dependencies**.
 
 - install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Then run the docker image from the example directory**:
+4. **Then run the docker image from the example directory**:
 ```bash
-./run_example.py
+./example_run_request.py
 ```
 
 #### Run with your data:
@@ -45,6 +49,7 @@ Go to the browser and access the Grafana dashboard at http://localhost:3000. At 
 
 To see the monitoring dashboard in the Grafana interface, click "General" and navigate to the chosen dashboard (e.g. "Evidently Data Drift").
 
+![Alt text](/images/dashboard.png?raw=true "Optional Title")
 
 2. **Stop the example**.
 
